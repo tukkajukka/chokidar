@@ -1,6 +1,6 @@
 'use strict';
 var EventEmitter = require('events').EventEmitter;
-var fs = require('fs');
+var fs = require('graceful-fs');
 var sysPath = require('path');
 var asyncEach = require('async-each');
 var anymatch = require('anymatch');
